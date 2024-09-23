@@ -20,7 +20,10 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy) {
         buddies.remove(buddy);
         System.out.println("Buddy removed: " + buddy.getName());
+    }
 
+    public void MyBranch(){
+        System.out.println("MyBranch");
     }
 
     // Main method to demonstrate the functionality
@@ -29,7 +32,7 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
-        System.out.println("test version2");
+        System.out.println("MyBranch");
 
     }
 }
