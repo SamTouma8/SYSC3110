@@ -29,7 +29,7 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
-        System.out.println("test version2");
+        System.out.println("test version3");
 
     }
 }
